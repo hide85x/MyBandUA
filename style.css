@@ -1,0 +1,259 @@
+body {
+  font-family: Shadows into light;
+  margin: 20px;
+  background-image: url('foty/my.jpg');
+  background-size: cover;
+  
+  
+}
+a {
+  color:black !important
+}
+footer {
+  color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.f1 {
+  transform: rotate(6deg)
+}
+.f2 {
+  transform: rotate(-3deg)
+}
+.f3 {
+  transform: rotate(7deg)
+}
+.foot {
+  list-style: none;
+  margin:30px 5px;
+  box-shadow:0 0 15px 5px rgb(0, 0, 0);
+  font-size: 40px;
+  color:rgb(145, 13, 13);
+  background: ghostwhite;
+  opacity: 0.7;
+}
+.foot:hover {
+  text-decoration: underline !important;
+  color: rgb(27, 22, 22);
+  cursor: pointer;
+}
+
+
+.welcome {
+ padding-top:250px;
+ text-align: center;
+ color:black;
+ 
+}
+h2.ua {
+  font-size:40px;
+  font-stretch: ultra-expanded;
+  color:rgb(148, 1, 1)
+}
+h1.ua {
+  font-size: 50px;
+  font-stretch: ultra-expanded;
+  font-weight: 700
+}
+
+nav {
+
+  flex-direction: column;
+  text-shadow: -1px 0 black, 0 1px black;
+  opacity: 0.8;
+  letter-spacing: 15px;
+  font-size: 35px;
+  font-family: Shadows into light;
+  color: white;
+  border: 1px double grey;
+  background-image: url('piano.jpg');
+}
+
+nav:hover {
+filter: invert(100%);
+}
+ul {
+
+  flex-wrap: wrap;
+    display: flex;
+  justify-content:center;
+
+}
+.hide {
+display: none;
+}
+li.nav {
+  flex-direction: column;
+  padding:50px 40px;
+  display:flex;
+  
+
+}
+li.nav:hover {
+  color: yellow;
+  cursor: pointer;
+}
+h2 {
+  text-align: center;
+  font-family:Shadows into light;
+  color: white;
+  text-shadow: 0 0 3px black
+
+}
+
+.slides {
+border-radius:10px;
+width: 100%
+
+
+}
+.musicvideo {
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  gap: 20px
+  
+  
+}
+.carousel {
+  margin:0;
+  padding: 0
+}
+.carousel-inner {
+  max-width: 1000px;
+  margin: 0;
+  padding: 0
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  margin:5px 0
+}
+.video img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 5px;
+}
+/* music section */
+
+.music {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  border:1px dotted black;
+  border-radius: 20px;
+  width: 700px;
+  background: linear-gradient(to left, rgb(48, 48, 48), rgb(78, 78, 78) 6%, rgb(51, 44, 44) 75%, #333);
+  opacity: 0.9;
+
+}
+.list {
+  
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+audio {
+  opacity: 0.7;
+  border-radius: 10px;
+  margin-right: 20px
+}
+
+.songs {
+  margin:20px 0px;
+  font-size: 25px;
+  color:rgb(0, 0, 0);
+  text-align: center
+  
+}
+
+.actv{
+  color: rgb(233, 19, 19);
+  text-decoration: underline;
+}
+.songs:hover {
+  text-decoration: underline;
+  color: rgb(233, 19, 19);
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 950px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .foot {
+    font-size: 30px;
+    margin:2px;
+  }
+  body {
+    overflow: visible;
+    flex-direction: column
+  
+  }
+  nav ul{
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0
+  }
+  .musicvideo {
+    display:flex;
+    align-items: center;
+    margin: auto;
+    gap: 0
+    
+  }
+  .carousel-inner {
+  margin: 0;
+}
+  .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%
+  }
+  .video img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px auto;
+  }
+  li.nav {
+    padding: 10px 5px !important
+  }
+  .welcome {
+    padding-top: 20px !important;
+  }
+  .playerImg {
+    display: none
+  }
+  .music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+  }
+  .playlist {
+    margin:2px
+  }
+  .player {
+  align-items: center;
+  margin-left: 5px
+    }
+  }
+  
